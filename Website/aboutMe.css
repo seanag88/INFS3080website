@@ -1,0 +1,66 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box1 >ul {
+    background-color: #262626;
+    text-align: right;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.box1 > ul >li {
+    float: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.box1 > ul >li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+.box1 > ul >li a:hover {
+    background-color: #324167;
+}
+
+.box1 > ul >a:link, a:visited {
+    background-color: #262626;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #324167;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background: url(http://cobaltdesign.ie/wp-content/uploads/2018/08/Website-Design-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.box2 {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* grid-column: 1/4; */
+}
+
+.box3 {
+    background-color: none;
+}
